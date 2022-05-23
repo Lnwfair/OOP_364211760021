@@ -13,9 +13,9 @@ class Student:
         self.name = name
         self.group = group
 
-        def introduce(self):
-            print(f'My name is {self.name}, I\'m in {self.group} and'
-                  f'studying in {self.major} major.')
+    def introduce(self):
+        print(f'My name is {self.name}, I\'m in {self.group} and'
+            f'studying in {self.major} major.')
 
 
 std1 = Student('Puriwat Lartkrai','MIT211')
