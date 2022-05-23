@@ -1,3 +1,9 @@
+"""
+student Name:jatuphon chit
+ID :021
+Group :mit211
+"""
+
 class Vehicle:
     def __init__(self,brandname,model,color,max_speed,price):
         # object attributes
