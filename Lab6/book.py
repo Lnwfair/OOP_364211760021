@@ -24,30 +24,30 @@ class Book:
 
 
 # create object
-b1 = Book("oop",200.00,"Jatuphon Chit","MT Familly")
-b2 = Book("Computer Programming",300.00,"Jatuphon Chit","RUTS")
-
-# display object attribute
-# print(b1.bookname)
-# print(b1.price)
-# print(b1.auther)
-# print(b1.publisher)
+#b1 = Book("oop",200.00,"Jatuphon Chit","MT Familly")
+# b2 = Book("Computer Programming",300.00,"Jatuphon Chit","RUTS")
 #
-# print(b2.bookname)
-# print(b2.price)
-# print(b2.auther)
-# print(b2.publisher)
+# # display object attribute
+# # print(b1.bookname)
+# # print(b1.price)
+# # print(b1.auther)
+# # print(b1.publisher)
+# #
+# # print(b2.bookname)
+# # print(b2.price)
+# # print(b2.auther)
+# # print(b2.publisher)
+# #
+# # b2.price = 399.00
+# # print(b2.price)
+# # print(b1.price)
+# b1.book_detail()
+# b2.book_detail()
 #
-# b2.price = 399.00
-# print(b2.price)
-# print(b1.price)
-b1.book_detail()
-b2.book_detail()
-
-mybook = [b1, b2]
-# print("Dispay book form list: ")
+# mybook = [b1, b2]
+# # print("Dispay book form list: ")
+# # for x in mybook:
+# #     print(x.book_detail())
+#
 # for x in mybook:
 #     print(x.book_detail())
-
-for x in mybook:
-    print(x.book_detail())

@@ -21,12 +21,27 @@ Book name: OOP | Price: 200.0 THB | Auther: Puriwat Lertkrai | Publisher: MT Fam
 """
 
 
-
-
 from book import Book
 
-b3 = Book("GTA",200.00,"Jatuphon Chit","MIT")
+book_store = []
+num = int(input('คุณมีหนังสือทั้งหมดกี่เล่ม :'))
 
-mybook = [b3]
-for x in mybook:
-    print(x.book_detail())
+for x in range(num):
+    bookname = input('ชื่อหนังสือ:')
+    price = float(input('ราคา:'))
+    auther = input('ชื่อผู้แต่ง:')
+    publisher = input('สำนักพิมพ์:')
+    #1
+    b = Book(bookname,price,auther,publisher)
+    book_store.append(b)
+    #2
+    #book_store.append(Book(bookname,price,auther,publisher))
+
+def display_book(book):
+    print('จำนวนหนังสือทั้งหมด:',len(book))
+    for x in book:
+        x.book_detail()
+
+display_book(book_store)
+
+
