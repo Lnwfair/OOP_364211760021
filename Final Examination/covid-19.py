@@ -3,11 +3,11 @@ class Student:
     class Vehicle:
         def __init__(self, name, id, age, weight, height):
             # object Student
-            self.name = name  # str
-            self.id = id  # str
-            self.age = age  # int
-            self.weight = weight  # float
-            self.height = height  # int
+            self.name = name
+            self.id = id
+            self.age = age
+            self.weight = weight
+            self.height = height
             pass
 
         def get_age(self):
