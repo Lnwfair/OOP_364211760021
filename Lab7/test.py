@@ -3,7 +3,7 @@ class Student:
     def __init__(self,name,age):
         self.name = name # public member
         self.__age = age # private member age >=18
-        self.__major = 'MT' # protected
+        # self.__major = 'MT' # protected
     def __int__(self):
         pass
 
@@ -17,8 +17,8 @@ class Student:
             print('Age should be higher 18.')
 
     def display_info(self):
-        print(f'Name: {self.name} Age: {self.__age} '
-            f'Major: {self.__major}')
+        print(f'Name: {self.name} Age: {self.__age} ')
+            # f'Major: {self.__major}')
 
 
 # std1 = Student('Jatuphon',21)
