@@ -1,13 +1,5 @@
-
-
-
-
-
-
-
-
 class Student:
-
+    #
     def __init__(self,name,age):
         self.name = name # public member
         self.__age = age # private member age >=18
@@ -49,5 +41,5 @@ age = int(input('age: '))
 std2 = Student(name,age)
 std2.display_info()
 
-std2.set_age(20)
-print(std2.get_age())
+std2.set_age(10)
+# # print(std2.get_age())

@@ -26,7 +26,7 @@ std.display_info()
 print(std._Student__age)
 
 
-std._Student__age = 40
+std._Student__age = 18
 print(std._Student__age)
 std.display_info()
 
