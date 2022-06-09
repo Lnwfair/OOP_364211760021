@@ -77,41 +77,6 @@ class Vaccinated():
 
 
 
-# # object
-# std1 = Student('Puriwat Lertkrai','001',35,80.00,180)
-# #std1.student_detail()
-#
-# vac1 = Vaccine('Pizer')
-# #vac1.vaccine_detail()
-# vac2 = Vaccine('Moderna')
-# #vac2.vaccine_detail()
-#
-# date1 = '10/7/2564'
-# date2 = '5/1/2565'
-#
-# std_vac = Vaccinated(std1)
-# # add data to object
-# std_vac.add_vaccinated(vac1)
-# std_vac.add_date(date1)
-#
-# std_vac.add_vaccinated(vac2)
-# std_vac.add_date(date2)
-#
-# # display student vaccinated
-# std_vac.vaccinated_detail()
-
-# build your interface for input data  -- here
-# n = input('Student name: ')
-# id = input('ID: ')
-#
-# std2 = Student(n,id,35,80.00,180)
-
-"""
-input name,id,age,weight,height ?
-input How many vaccinated ? 
-select vaccines
-input date(str)
-"""
 
 name = input('Student Name: ')
 id = input('Student ID: ')
@@ -169,7 +134,3 @@ for x in date:
 
 std_vac.vaccinated_detail()
 
-
-
-# print([x for x in vacc])
-# print([x for x in date])
