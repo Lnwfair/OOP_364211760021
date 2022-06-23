@@ -1,7 +1,7 @@
 """
-Name : {}
-ID: {}
-Group: {}
+Name : Jatuphon Chit
+ID: 021
+Group: MIT 211
 """
 
 from model import Student,Vaccine,VaccinatedPassport,Employee

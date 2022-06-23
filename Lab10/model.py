@@ -1,7 +1,7 @@
 """
-Name : {}
-ID: {}
-Group: {}
+Name : Jatuphon Chit
+ID: 021
+Group: MIT 211
 """
 class Person:
     def __init__(self,name,age,weight,height):
